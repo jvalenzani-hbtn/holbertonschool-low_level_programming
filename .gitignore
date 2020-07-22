@@ -1,3 +1,5 @@
 # Ignore temporary and test files
 *.tmp
 test_*
+cisfun
+*.out
