@@ -4,3 +4,4 @@ temp_*
 test_*
 cisfun
 *.out
+_putchar.c
