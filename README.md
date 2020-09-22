@@ -6,3 +6,4 @@
 - https://gcc.gnu.org/onlinedocs/gcc/Overall-Options.html#Overall-Options
 
 ---
+# 0x03 - Debugging
