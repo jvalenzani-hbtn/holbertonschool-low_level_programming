@@ -4,13 +4,17 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *r;
+	char *r = NULL;
 	unsigned int i;
 
-	r = malloc(size * sizeof(char));
-	for(i = 0;i < size; i++)
+	if (size > 0)
 	{
-		r[i] = c;
+
+		r = malloc(size * sizeof(char));
+		for (i = 0; i < size; i++)
+		{
+			r[i] = c;
+		}
 	}
-	return r;
+	return (r);
 }
