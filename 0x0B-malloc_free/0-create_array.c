@@ -5,7 +5,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *r;
-	int i;
+	unsigned int i;
 
 	r = malloc(size * sizeof(char));
 	for(i = 0;i < size; i++)
