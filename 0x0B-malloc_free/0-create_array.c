@@ -5,7 +5,7 @@
 char *create_array(unsigned int size, char c)
 {
 	char *r;
-	r = malloc(n * sizeof(char));
+	r = malloc(size * sizeof(char));
 	r[0] = c;
 	return r;
 }
