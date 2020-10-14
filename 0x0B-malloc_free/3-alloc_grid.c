@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void freeAsange(int **ret, int i);
+void freeWilly(int **ret, int i);
 
 int **alloc_grid(int width, int height)
 {
@@ -18,7 +18,7 @@ int **alloc_grid(int width, int height)
 			ret[i] = malloc(width * sizeof(int));
 			if (ret[i] == NULL)
 			{
-				freeAsange(ret, i);
+				freeWilly(ret, i);
 				return (NULL);
 			}
 		}
