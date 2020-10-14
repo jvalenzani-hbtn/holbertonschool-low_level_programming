@@ -37,4 +37,5 @@ void freeAsange(int **ret, int i)
 	{
 		free(ret[c]);
 	}
+	free(ret);
 }
