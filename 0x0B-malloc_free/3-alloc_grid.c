@@ -30,7 +30,7 @@ int **alloc_grid(int width, int height)
 	return (ret);
 }
 
-void freeAsange(int **ret, int i)
+void freeWilly(int **ret, int i)
 {
 	int c;
 	for (c = 0; c <= i; c++)
