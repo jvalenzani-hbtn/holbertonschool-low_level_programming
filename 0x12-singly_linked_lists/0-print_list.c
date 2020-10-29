@@ -2,18 +2,19 @@
 
 /**
  * print_list - Prints a single linked list
- * @h - list node 
+ * @h: list node
  *
  * Return: Number of nodes.
  */
 size_t print_list(const list_t *h)
 {
 	int nodeCount = 0;
+
 	if (h == NULL)
-	{	
+	{
 		return (nodeCount);
 	}
-	while(h != NULL)
+	while (h != NULL)
 	{
 		if (h->str == NULL)
 		{
