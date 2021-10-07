@@ -6,8 +6,8 @@
  * Return:  void
  */
 
- void more_numbers(void)
- {
+void more_numbers(void)
+{
     int i, j; /* iterators */
 
     for (i = 0; i < 10; i++)
@@ -22,4 +22,4 @@
         }
         _putchar('\n');
     }
- }
+}
