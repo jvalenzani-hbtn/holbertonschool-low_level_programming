@@ -5,4 +5,5 @@ test_*
 cisfun
 *.out
 0xff*
+a.out
 _putchar.c
