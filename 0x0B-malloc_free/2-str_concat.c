@@ -5,10 +5,22 @@ int _strlen(char *str);
 char *str_concat(char *s1, char *s2)
 {
     
-    int size_s1 = _strlen(s1);
-    int size_s2 = _strlen(s2);
+    int size_s1 = 0;
+    int size_s2 = 0;
     int i, j;
-    char *new_string = malloc(sizeof(char) * (size_s1+size_s2));
+    char *new_string = NULL;
+
+    if(!s1){
+        s1 = "";
+    }
+    if(!s2){
+        s2 = "";
+    }
+
+    size_s1 = _strlen(s1);
+    size_s2 = _strlen(s2);
+
+    new_string = malloc(sizeof(char) * (size_s1+size_s2));
     if(!new_string)
     {
         return NULL; 
